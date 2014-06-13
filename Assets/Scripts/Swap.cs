@@ -36,13 +36,13 @@ public class Swap : MonoBehaviour {
 
 
 
-	void Pressed (){
+	public void Pressed (){
 		TriggerBar.GetComponent<ScoreBoard> ().PressButton (clr, isLeft);
 		GetComponent <SpriteRenderer> ().sprite = Button2;
 
 	}
 
-	void Unpressed () {
+	public void Unpressed () {
 		GetComponent <SpriteRenderer> ().sprite = Button1;
 	}
 

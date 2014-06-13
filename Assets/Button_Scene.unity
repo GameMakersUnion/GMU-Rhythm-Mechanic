@@ -530,6 +530,7 @@ GameObject:
   - 212: {fileID: 1583551243}
   - 61: {fileID: 1583551244}
   - 114: {fileID: 1583551245}
+  - 114: {fileID: 1583551246}
   m_Layer: 0
   m_Name: TriggerLine
   m_TagString: Untagged
@@ -595,6 +596,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LScore: 0
   RScore: 0
+--- !u!114 &1583551246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1583551241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2efb67dd0ed4efb4fb2060e169274f84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftRed: {fileID: 497736007}
+  LeftYellow: {fileID: 1635023403}
+  LeftBlue: {fileID: 632188205}
+  RightRed: {fileID: 1678868459}
+  RightYellow: {fileID: 1741291208}
+  RightBlue: {fileID: 1784203863}
 --- !u!1 &1635023400
 GameObject:
   m_ObjectHideFlags: 0
